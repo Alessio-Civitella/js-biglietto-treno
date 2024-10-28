@@ -13,5 +13,10 @@ if (!isNaN(km) && !isNaN(eta) && km >= 0 && eta >= 0) {
         prezzoTotale *= 0.6; // Sconto del 40% per gli over 65
     }
 
+    // Mostra il prezzo finale
+    alert(`Il prezzo finale del viaggio è: €${prezzoTotale.toFixed(2)}`);
+} else {
+    alert("Inserisci valori validi.");
+}
 
 
